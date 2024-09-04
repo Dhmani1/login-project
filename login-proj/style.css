@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #5cb85c;
+}
+
+/* تنسيق للنماذج */
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+/* تنسيق الصورة الرمزية */
+img {
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* تنسيق رابط تسجيل الخروج */
+a {
+    text-decoration: none;
+    color: #5cb85c;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* style.css */
+
+/* تنسيق رسالة النجاح */
+.success-message {
+    background-color: #d4edda; /* خلفية خضراء فاتحة */
+    color: #155724; /* نص أخضر داكن */
+    border: 1px solid #c3e6cb; /* إطار أخضر فاتح */
+    padding: 15px; /* تباعد داخلي */
+    margin: 20px 0; /* تباعد خارجي */
+    border-radius: 5px; /* زوايا دائرية */
+    font-size: 18px; /* حجم الخط */
+    position: absolute; /* استخدام الوضع المطلق للتحكم في الموقع */
+    top: 20px; /* المسافة من الأعلى */
+    right: 20px; /* المسافة من اليمين */
+    width: auto; /* عرض تلقائي لتتناسب مع النص */
+}
+
+
+.error-message {
+    background-color: #f8d7da; /* خلفية حمراء فاتحة */
+    color: #721c24; /* نص أحمر داكن */
+    border: 1px solid #f5c6cb; /* إطار أحمر فاتح */
+    padding: 50px; /* تباعد داخلي */
+    margin: 20px 0; /* تباعد خارجي */
+    border-radius: 5px; /* زوايا دائرية */
+    font-size: 18px; /* حجم الخط */
+    text-align: center; /* محاذاة النص في المنتصف */
+}
